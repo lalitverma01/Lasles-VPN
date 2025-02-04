@@ -1,0 +1,84 @@
+:root {
+    /***** font-family *****/
+    --font-rubik: "Rubik", serif;
+    /***** font-size *****/
+    --fs-very-small: 14px;
+    --fs-sm: 18px;
+    --fs-md: 25px;
+    --fs-lg: 35px;
+    --fs-xl: 50px;
+    /***** line-height *****/
+    --lh-18: 18.96px;
+    --lh-23: 23.7px;
+    --lh-25: 25px;
+    --lh-30: 30px;
+    --lh-50: 50px;
+    --lh-70: 70px;
+    /***** color *****/
+    --color-dark-mineral: #4F5665;
+    --color-liberty-blue: #0B132A;
+    --color-radish-lips: #F53855;
+    --bg-flamboyant: #F53838;
+    --color-white: white;
+    --color-snowflake: #EEEFF2;
+}
+
+/***** font-family *****/
+.font-rubik {
+    font-family: var(--font-rubik);
+}
+
+/***** font-size *****/
+.fs-very-small {
+    font-size: var(--fs-very-small);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+/***** line-height *****/
+.lh-18 {
+    line-height: var(--lh-18);
+}
+
+.lh-23 {
+    line-height: var(--lh-23);
+}
+
+.lh-25 {
+    line-height: var(--lh-25);
+}
+
+.lh-30 {
+    line-height: var(--lh-30);
+}
+
+.lh-50 {
+    line-height: var(--lh-50);
+}
+
+.lh-70 {
+    line-height: var(--lh-70);
+}
+
+/***** color *****/
+.color-mineral {
+    color: var(--color-dark-mineral);
+}
+
+.color-liberty {
+    color: var(--color-liberty-blue);
+}

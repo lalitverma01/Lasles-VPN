@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/svg/footer-logo.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="d-flex align-items-center justify-content-center min-vh-100 flex-column">
+        <nav class="py-45 w-100">
+            <div class="container max-w-1140">
+                <div class="d-flex align-items-center justify-content-between w-100">
+                    <div class="d-flex align-items-center gap-10">
+                        <a href="#"><img class="header-logo" src="./assets/images/svg/nav-logo.svg" alt="nav-logo"></a>
+                        <a class="text-decoration-none" href="#">
+                            <div class="font-rubik fw-medium fs-5 lh-23 color-liberty">Lasles<span
+                                    class="fw-bold">VPN</span></div>
+                        </a>
+                    </div>
+                    <ul id="name"
+                        class="d-flex mb-0 align-items-center nav-link list-unstyled justify-content-center justify-content-lg-between w-100">
+                        <li>
+                            <a href="#"><img class="d-none" src="./assets/images/svg/nav-logo.svg" alt="nav-logo"></a>
+                        </li>
+                        <li>
+                            <ul
+                                class="d-flex mb-0 align-items-center gap-40 list-unstyled justify-content-center flex-column flex-lg-row">
+                                <li><a class="text-decoration-none font-rubik fs-very-small fw-normal lh-18 navbar-link color-mineral"
+                                        href="#">About</a>
+                                </li>
+                                <li><a class="text-decoration-none font-rubik fs-very-small fw-normal lh-18 navbar-link color-mineral"
+                                        href="#">Features</a>
+                                </li>
+                                <li><a class="text-decoration-none font-rubik fs-very-small fw-normal lh-18 navbar-link color-mineral"
+                                        href="#">Pricing</a></li>
+                                <li><a class="text-decoration-none font-rubik fs-very-small fw-normal lh-18 navbar-link color-mineral"
+                                        href="#">Testimonials</a>
+                                </li>
+                                <li><a class="text-decoration-none font-rubik fs-very-small fw-normal lh-18 navbar-link color-mineral"
+                                        href="#">Help</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="d-flex list-unstyled mb-0">
+                                <li class="d-flex d-flex align-items-center gap-30">
+                                    <button
+                                        class="nav-btn font-rubik fw-medium fs-6 bg-white border-0 color-liberty lh-18 mt-4 mt-lg-0">Sign
+                                        In</button>
+                                    <button
+                                        class="sign-up-btn fw-bold fs-sm bg-white font-rubik lh-18 mt-4 mt-lg-0">Sign
+                                        Up</button>
+
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div onclick="navbarbtn()" class="z-5 d-lg-none cursor-pointer">
+                        <span class="menu-lines bg-black" id="rotates"></span>
+                        <span class="menu-lines bg-black" id="transparent"></span>
+                        <span class="menu-lines bg-black" id="rotates2"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="flex-grow-1 d-flex align-items-center justify-content-center">
+            <div class="container max-w-1140">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <h1 class="font-rubik fw-medium fs-xl lh-70 mb-20 max-w-555">Want anything to be easy with <span
+                                class="fw-bold">LaslesVPN.</span></h1>
+                        <p class="font-rubik fw-normal fs-6 lh-30 color-mineral max-w-555 mb-50">Provide a network for
+                            all
+                            your needs with ease and fun using <span class="fw-medium">LaslesVPN</span> discover
+                            interesting features from us.</p>
+                        <button class="get-started-btn font-rubik fw-bold fs-6 lh-25 text-white border-0">Get
+                            Started</button>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <img src="./assets/images/png/header-img.png" alt="header-img" class="w-100">
+                    </div>
+                </div>
+                <div class="row mt-103">
+                    <div class="col-12 col-sm-6 col-md-4 border-line">
+                        <div class="d-flex align-items-center justify-content-center gap-37">
+                            <div class="circle d-flex align-items-center justify-content-center">
+                                <svg width="17" height="19" viewBox="0 0 17 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8.49961 7.71758C9.45439 7.71758 10.3701 7.33829 11.0452 6.66316C11.7203 5.98803 12.0996 5.07236 12.0996 4.11758C12.0996 3.1628 11.7203 2.24712 11.0452 1.57199C10.3701 0.896863 9.45439 0.517578 8.49961 0.517578C7.54483 0.517578 6.62916 0.896863 5.95403 1.57199C5.27889 2.24712 4.89961 3.1628 4.89961 4.11758C4.89961 5.07236 5.27889 5.98803 5.95403 6.66316C6.62916 7.33829 7.54483 7.71758 8.49961 7.71758ZM3.39826 18.5176C1.57647 18.5176 0.0418506 16.9862 0.739021 15.303C1.16116 14.2839 1.7799 13.3579 2.55991 12.5779C3.33992 11.7979 4.26593 11.1791 5.28507 10.757C6.3042 10.3349 7.39651 10.1176 8.49961 10.1176C9.60271 10.1176 10.695 10.3349 11.7142 10.757C12.7333 11.1791 13.6593 11.7979 14.4393 12.5779C15.2193 13.3579 15.8381 14.2839 16.2602 15.303C16.9574 16.9862 15.4228 18.5176 13.601 18.5176H3.39826Z"
+                                        fill="#F53838" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="font-rubik fw-bold fs-md lh-30 color-liberty">90+</h3>
+                                <p class="font-rubik fw-normal fs-5 lh-30 color-mineral">Users</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 border-line">
+                        <div class="d-flex align-items-center justify-content-center gap-37">
+                            <div class="circle d-flex align-items-center justify-content-center">
+                                <svg width="14" height="21" viewBox="0 0 14 21" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14 7.91797C14 6.99872 13.8189 6.08846 13.4672 5.23918C13.1154 4.38991 12.5998 3.61823 11.9497 2.96822C11.2997 2.31821 10.5281 1.80259 9.67878 1.45081C8.8295 1.09903 7.91925 0.917969 7 0.917969C6.08075 0.917969 5.17049 1.09903 4.32122 1.45081C3.47194 1.80259 2.70026 2.31821 2.05025 2.96822C1.40024 3.61823 0.884626 4.38991 0.532843 5.23918C0.18106 6.08846 -1.36979e-08 6.99872 0 7.91797C0 9.30497 0.41 10.595 1.105 11.683H1.097C3.457 15.378 7 20.918 7 20.918L12.903 11.683H12.896C13.6164 10.5593 13.9995 9.25271 14 7.91797ZM7 10.918C6.20435 10.918 5.44129 10.6019 4.87868 10.0393C4.31607 9.47668 4 8.71362 4 7.91797C4 7.12232 4.31607 6.35926 4.87868 5.79665C5.44129 5.23404 6.20435 4.91797 7 4.91797C7.79565 4.91797 8.55871 5.23404 9.12132 5.79665C9.68393 6.35926 10 7.12232 10 7.91797C10 8.71362 9.68393 9.47668 9.12132 10.0393C8.55871 10.6019 7.79565 10.918 7 10.918Z"
+                                        fill="#F53838" />
+                                </svg>
+
+                            </div>
+                            <div>
+                                <h3 class="font-rubik fw-bold fs-md lh-30 color-liberty">30+</h3>
+                                <p class="font-rubik fw-normal fs-5 lh-30 color-mineral">Locations</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mx-auto border-line">
+                        <div class="d-flex align-items-center justify-content-center gap-37">
+                            <div class="circle d-flex align-items-center justify-content-center">
+                                <svg width="21" height="19" viewBox="0 0 21 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M18.5 0.917969H2.5C1.96957 0.917969 1.46086 1.12868 1.08579 1.50376C0.710714 1.87883 0.5 2.38754 0.5 2.91797V6.91797C0.5 7.4484 0.710714 7.95711 1.08579 8.33218C1.46086 8.70725 1.96957 8.91797 2.5 8.91797H18.5C19.0304 8.91797 19.5391 8.70725 19.9142 8.33218C20.2893 7.95711 20.5 7.4484 20.5 6.91797V2.91797C20.5 2.38754 20.2893 1.87883 19.9142 1.50376C19.5391 1.12868 19.0304 0.917969 18.5 0.917969ZM13.5 4.91797C13.5 5.47025 13.0523 5.91797 12.5 5.91797C11.9477 5.91797 11.5 5.47025 11.5 4.91797C11.5 4.36568 11.9477 3.91797 12.5 3.91797C13.0523 3.91797 13.5 4.36568 13.5 4.91797ZM17.5 4.91797C17.5 5.47025 17.0523 5.91797 16.5 5.91797C15.9477 5.91797 15.5 5.47025 15.5 4.91797C15.5 4.36568 15.9477 3.91797 16.5 3.91797C17.0523 3.91797 17.5 4.36568 17.5 4.91797ZM18.5 10.918H2.5C1.96957 10.918 1.46086 11.1287 1.08579 11.5038C0.710714 11.8788 0.5 12.3875 0.5 12.918V16.918C0.5 17.4484 0.710714 17.9571 1.08579 18.3322C1.46086 18.7073 1.96957 18.918 2.5 18.918H18.5C19.0304 18.918 19.5391 18.7073 19.9142 18.3322C20.2893 17.9571 20.5 17.4484 20.5 16.918V12.918C20.5 12.3875 20.2893 11.8788 19.9142 11.5038C19.5391 11.1287 19.0304 10.918 18.5 10.918ZM13.5 14.918C13.5 15.4703 13.0523 15.918 12.5 15.918C11.9477 15.918 11.5 15.4703 11.5 14.918C11.5 14.3657 11.9477 13.918 12.5 13.918C13.0523 13.918 13.5 14.3657 13.5 14.918ZM17.5 14.918C17.5 15.4703 17.0523 15.918 16.5 15.918C15.9477 15.918 15.5 15.4703 15.5 14.918C15.5 14.3657 15.9477 13.918 16.5 13.918C17.0523 13.918 17.5 14.3657 17.5 14.918Z"
+                                        fill="#F53838" />
+                                </svg>
+
+                            </div>
+                            <div>
+                                <h3 class="font-rubik fw-bold fs-md lh-30 color-liberty">50+</h3>
+                                <p class="font-rubik fw-normal fs-5 lh-30 color-mineral">Servers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
