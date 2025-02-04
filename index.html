@@ -9,6 +9,13 @@
     <link rel="shortcut icon" href="./assets/images/svg/footer-logo.svg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -49,14 +56,14 @@
                         </li>
                         <li>
                             <ul
-                                class="d-flex list-unstyled mb-0 gap-30 align-items-center mt-40 flex-column flex-lg-row">
+                                class="d-flex list-unstyled mb-0 gap-30 align-items-center mt-40 mt-lg-0 flex-column flex-lg-row">
                                 <li>
                                     <button
-                                        class="nav-btn font-rubik fw-medium fs-6 bg-white border-0 color-liberty lh-18 mt-lg-0">Sign
+                                        class="nav-btn font-rubik fw-medium fs-6 bg-white border-0 color-liberty lh-18">Sign
                                         In</button>
                                 </li>
                                 <li>
-                                    <button class="sign-up-btn fw-bold fs-sm bg-white font-rubik lh-18 mt-lg-0">Sign
+                                    <button class="sign-up-btn fw-bold fs-sm bg-white font-rubik lh-18">Sign
                                         Up</button>
                                 </li>
                             </ul>
@@ -342,15 +349,160 @@
             <img src="./assets/images/svg/spotify-logo.svg" alt="spotify-logo">
         </div>
     </section>
+    <!--**** slider ****-->
+    <section class="min-vh-100 py-5 bg-white z-10 position-relative ">
+        <div class="container w-100">
+            <div class="d-flex flex-column align-items-center">
+                <h3 class="font-rubik fw-medium fs-lg text-center lh-50 color-liberty max-w-447 mb-0">
+                    Trusted by Thousands of Happy Customer</h3>
+                <p class="font-rubik text-center fw-normal fs-6 lh-30 color-mineral max-w-640 mt-20 mb-60 max-w-555">
+                    These are the stories of our customers who have joined us with great pleasure when using this crazy
+                    feature.
+                </p>
+            </div>
+            <div class="position-relative">
+                <div class="happy-customer-slider slider-start">
+                    <div class="slider-card bg-white">
+                        <div class="d-flex justify-content-between mb-20">
+                            <div class="d-flex">
+                                <img src="./assets/images/svg/slider-img-1.svg" alt="slider-img-1">
+                                <div class="ms-4">
+                                    <p class="color-liberty font-rubik fw-medium fs-5 lh-30 mb-0">Viezh
+                                        Robert
+                                    </p>
+                                    <p class="font-rubik color-mineral fw-normal lh-30 fs-very-small mb-0">
+                                        Warsaw, Poland
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center gap-10">
+                                <p class="mb-0 font-rubik fw-normal fs-5 lh-30 text-center color-liberty">4.5</p>
+                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.1887 6.16583L10.2215 5.58926L8.4481 1.99395C8.39966 1.89551 8.31998 1.81583 8.22154 1.76739C7.97466 1.64551 7.67466 1.74708 7.55123 1.99395L5.77779 5.58926L1.8106 6.16583C1.70123 6.18145 1.60123 6.23301 1.52466 6.31114C1.4321 6.40627 1.3811 6.53426 1.38286 6.66699C1.38461 6.79971 1.43899 6.9263 1.53404 7.01895L4.40435 9.81739L3.72623 13.769C3.71032 13.8609 3.7205 13.9554 3.75559 14.0418C3.79068 14.1283 3.84929 14.2032 3.92477 14.258C4.00025 14.3128 4.08958 14.3454 4.18263 14.352C4.27568 14.3586 4.36873 14.3391 4.45123 14.2955L7.99966 12.4299L11.5481 14.2955C11.645 14.3471 11.7575 14.3643 11.8653 14.3455C12.1372 14.2986 12.32 14.0408 12.2731 13.769L11.595 9.81739L14.4653 7.01895C14.5434 6.94239 14.595 6.84239 14.6106 6.73301C14.6528 6.45958 14.4622 6.20645 14.1887 6.16583Z"
+                                        fill="#FEA250"
+                                        style="fill:#FEA250;fill:color(display-p3 0.9961 0.6353 0.3137);fill-opacity:1;" />
+                                </svg>
+                            </div>
+                        </div>
+                        <p class="font-rubik fw-normal fs-6 lh-30 align-items-center mb-0 color-liberty">
+                            “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and
+                            so far there have been no problems. LaslesVPN always the best”.</p>
+                    </div>
+                    <div class="slider-card bg-white">
+                        <div class="d-flex justify-content-between mb-20">
+                            <div class="d-flex">
+                                <img src="./assets/images/svg/slider-img-2.svg" alt="slider-img-2">
+                                <div class="ms-4">
+                                    <p class="color-liberty font-rubik fw-medium fs-5 lh-30 mb-0">
+                                        Yessica Christy
+                                    </p>
+                                    <p
+                                        class="font-rubik color-mineral fw-normal lh-30 font-very-small mb-0">
+                                        Shanxi, China
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center gap-10">
+                                <p class="mb-0 font-rubik fw-normal fs-5 lh-30 text-center color-liberty">4.5</p>
+                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.1887 6.16583L10.2215 5.58926L8.4481 1.99395C8.39966 1.89551 8.31998 1.81583 8.22154 1.76739C7.97466 1.64551 7.67466 1.74708 7.55123 1.99395L5.77779 5.58926L1.8106 6.16583C1.70123 6.18145 1.60123 6.23301 1.52466 6.31114C1.4321 6.40627 1.3811 6.53426 1.38286 6.66699C1.38461 6.79971 1.43899 6.9263 1.53404 7.01895L4.40435 9.81739L3.72623 13.769C3.71032 13.8609 3.7205 13.9554 3.75559 14.0418C3.79068 14.1283 3.84929 14.2032 3.92477 14.258C4.00025 14.3128 4.08958 14.3454 4.18263 14.352C4.27568 14.3586 4.36873 14.3391 4.45123 14.2955L7.99966 12.4299L11.5481 14.2955C11.645 14.3471 11.7575 14.3643 11.8653 14.3455C12.1372 14.2986 12.32 14.0408 12.2731 13.769L11.595 9.81739L14.4653 7.01895C14.5434 6.94239 14.595 6.84239 14.6106 6.73301C14.6528 6.45958 14.4622 6.20645 14.1887 6.16583Z"
+                                        fill="#FEA250"
+                                        style="fill:#FEA250;fill:color(display-p3 0.9961 0.6353 0.3137);fill-opacity:1;" />
+                                </svg>
+                            </div>
+                        </div>
+                        <p class="font-rubik fw-normal fs-6 lh-30 align-items-center mb-0 color-liberty pb-58">
+                            “I like it because I like to travel far and still can connect with high speed.”.</p>
+                    </div>
+                    <div class="slider-card bg-white">
+                        <div class="d-flex justify-content-between mb-20">
+                            <div class="d-flex">
+                                <img src="./assets/images/svg/slider-img-3.svg" alt="slider-img-3">
+                                <div class="ms-4">
+                                    <p class="color-liberty font-rubik fw-medium fs-sm lh-30 mb-0">
+                                        Kim Young Jou
+                                    </p>
+                                    <p
+                                        class="font-rubik color-mineral fw-normal lh-30 font-very-small mb-0">
+                                        Seoul, South Korea
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center gap-10">
+                                <p class="mb-0 font-rubik fw-normal fs-5 lh-30 text-center color-liberty">4.5</p>
+                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.1887 6.16583L10.2215 5.58926L8.4481 1.99395C8.39966 1.89551 8.31998 1.81583 8.22154 1.76739C7.97466 1.64551 7.67466 1.74708 7.55123 1.99395L5.77779 5.58926L1.8106 6.16583C1.70123 6.18145 1.60123 6.23301 1.52466 6.31114C1.4321 6.40627 1.3811 6.53426 1.38286 6.66699C1.38461 6.79971 1.43899 6.9263 1.53404 7.01895L4.40435 9.81739L3.72623 13.769C3.71032 13.8609 3.7205 13.9554 3.75559 14.0418C3.79068 14.1283 3.84929 14.2032 3.92477 14.258C4.00025 14.3128 4.08958 14.3454 4.18263 14.352C4.27568 14.3586 4.36873 14.3391 4.45123 14.2955L7.99966 12.4299L11.5481 14.2955C11.645 14.3471 11.7575 14.3643 11.8653 14.3455C12.1372 14.2986 12.32 14.0408 12.2731 13.769L11.595 9.81739L14.4653 7.01895C14.5434 6.94239 14.595 6.84239 14.6106 6.73301C14.6528 6.45958 14.4622 6.20645 14.1887 6.16583Z"
+                                        fill="#FEA250"
+                                        style="fill:#FEA250;fill:color(display-p3 0.9961 0.6353 0.3137);fill-opacity:1;" />
+                                </svg>
+                            </div>
+                        </div>
+                        <p class="font-rubik fw-normal fs-6 lh-30 align-items-center mb-0 color-liberty pb-30">
+                            “This is very unusual for my business that currently requires a virtual private network that
+                            has high security.”.</p>
+                    </div>
+                    <div class="slider-card bg-white">
+                        <div class="d-flex justify-content-between mb-20">
+                            <div class="d-flex">
+                                <img src="./assets/images/svg/slider-img-1.svg" alt="slider-img-1">
+                                <div class="ms-4">
+                                    <p class="color-liberty font-rubik fw-medium fs-5 lh-30 mb-0">
+                                        Viezh Robert
+                                    </p>
+                                    <p
+                                        class="font-rubik color-mineral fw-normal lh-30 font-very-small mb-0">
+                                        Warsaw, Poland
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center gap-10">
+                                <p class="mb-0 font-rubik fw-normal fs-5 lh-30 text-center color-liberty">4.5</p>
+                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.1887 6.16583L10.2215 5.58926L8.4481 1.99395C8.39966 1.89551 8.31998 1.81583 8.22154 1.76739C7.97466 1.64551 7.67466 1.74708 7.55123 1.99395L5.77779 5.58926L1.8106 6.16583C1.70123 6.18145 1.60123 6.23301 1.52466 6.31114C1.4321 6.40627 1.3811 6.53426 1.38286 6.66699C1.38461 6.79971 1.43899 6.9263 1.53404 7.01895L4.40435 9.81739L3.72623 13.769C3.71032 13.8609 3.7205 13.9554 3.75559 14.0418C3.79068 14.1283 3.84929 14.2032 3.92477 14.258C4.00025 14.3128 4.08958 14.3454 4.18263 14.352C4.27568 14.3586 4.36873 14.3391 4.45123 14.2955L7.99966 12.4299L11.5481 14.2955C11.645 14.3471 11.7575 14.3643 11.8653 14.3455C12.1372 14.2986 12.32 14.0408 12.2731 13.769L11.595 9.81739L14.4653 7.01895C14.5434 6.94239 14.595 6.84239 14.6106 6.73301C14.6528 6.45958 14.4622 6.20645 14.1887 6.16583Z"
+                                        fill="#FEA250"
+                                        style="fill:#FEA250;fill:color(display-p3 0.9961 0.6353 0.3137);fill-opacity:1;" />
+                                </svg>
+                            </div>
+                        </div>
+                        <p class="font-rubik fw-normal fs-6 lh-30 align-items-center mb-0 color-liberty">
+                            “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and
+                            so far there have been no problems. LaslesVPN always the best”.</p>
+                    </div>
+                </div>
+                <button class="prev d-flex align-items-center ">
+                    <svg class="svg" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18.75 7.74961H3.925L8.4625 2.29961C8.67467 2.04434 8.77675 1.71524 8.74628 1.38471C8.7158 1.05417 8.55527 0.749285 8.3 0.537112C8.04473 0.324939 7.71563 0.222862 7.3851 0.253336C7.05456 0.283811 6.74967 0.444341 6.5375 0.699612L0.2875 8.19961C0.245451 8.25927 0.207849 8.32194 0.175 8.38711C0.175 8.44961 0.175 8.48711 0.0875002 8.54961C0.0308421 8.69294 0.0011764 8.8455 0 8.99961C0.0011764 9.15372 0.0308421 9.30629 0.0875002 9.44961C0.0875002 9.51211 0.0874998 9.54961 0.175 9.61211C0.207849 9.67729 0.245451 9.73996 0.2875 9.79961L6.5375 17.2996C6.65503 17.4407 6.8022 17.5542 6.96856 17.632C7.13491 17.7097 7.31636 17.7499 7.5 17.7496C7.79207 17.7502 8.07511 17.6485 8.3 17.4621C8.42657 17.3572 8.5312 17.2283 8.60789 17.0829C8.68458 16.9374 8.73183 16.7783 8.74692 16.6146C8.76202 16.4509 8.74466 16.2858 8.69586 16.1288C8.64705 15.9718 8.56775 15.8259 8.4625 15.6996L3.925 10.2496H18.75C19.0815 10.2496 19.3995 10.1179 19.6339 9.8835C19.8683 9.64907 20 9.33113 20 8.99961C20 8.66809 19.8683 8.35015 19.6339 8.11573C19.3995 7.88131 19.0815 7.74961 18.75 7.74961Z"
+                            fill="#F53838" />
+                    </svg>
+                </button>
+                <button class="next d-flex align-items-center ">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6.25 13.7496H21.075L16.5375 8.29961C16.3253 8.04434 16.2232 7.71524 16.2537 7.38471C16.2842 7.05417 16.4447 6.74929 16.7 6.53711C16.9553 6.32494 17.2844 6.22286 17.6149 6.25334C17.9454 6.28381 18.2503 6.44434 18.4625 6.69961L24.7125 14.1996C24.7545 14.2593 24.7922 14.3219 24.825 14.3871C24.825 14.4496 24.825 14.4871 24.9125 14.5496C24.9692 14.6929 24.9988 14.8455 25 14.9996C24.9988 15.1537 24.9692 15.3063 24.9125 15.4496C24.9125 15.5121 24.9125 15.5496 24.825 15.6121C24.7922 15.6773 24.7545 15.74 24.7125 15.7996L18.4625 23.2996C18.345 23.4407 18.1978 23.5542 18.0314 23.632C17.8651 23.7097 17.6836 23.7499 17.5 23.7496C17.2079 23.7502 16.9249 23.6485 16.7 23.4621C16.5734 23.3572 16.4688 23.2283 16.3921 23.0829C16.3154 22.9374 16.2682 22.7783 16.2531 22.6146C16.238 22.4509 16.2553 22.2858 16.3041 22.1288C16.3529 21.9718 16.4322 21.8259 16.5375 21.6996L21.075 16.2496H6.25C5.91848 16.2496 5.60054 16.1179 5.36612 15.8835C5.13169 15.6491 5 15.3311 5 14.9996C5 14.6681 5.13169 14.3501 5.36612 14.1157C5.60054 13.8813 5.91848 13.7496 6.25 13.7496Z"
+                            fill="#F53838" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
     <!--**** footer ****-->
-    <footer class="bg-color d-flex align-items-center justify-content-center min-vh-100">
-        <div class="container">
+    <footer class="bg-color d-flex align-items-center justify-content-center">
+        <div class="container max-w-1140">
             <div class="box-2 bg-white">
                 <div class="align-items-center justify-content-between d-lg-flex w-100">
                     <div>
                         <h2 class="font-rubik fw-medium fs-lg lh-45 color-liberty max-w-371 text-start mb-0">Subscribe
-                            Now for Get
-                            Special Features!</h2>
+                            Now for Get Special Features!</h2>
                         <p class="font-rubik fw-normal fs-6 lh-30 color-mineral mt-20 mb-0">Let's subscribe with us and
                             find the fun.</p>
                     </div>
@@ -371,12 +523,33 @@
                             class="fw-medium">LaslesVPN</span> is a private virtual network that has unique features and
                         has high security.</p>
                     <div class="d-flex align-items-center gap-20 mt-30">
-                        <a href="https://www.facebook.com/login/" target="_blank"><img
-                                src="./assets/images/svg/facebook-svg.svg" alt="facebook-svg" class="icon"></a>
-                        <a href="https://www.twitter.com/login/" target="_blank"><img
-                                src="./assets/images/svg/twitter-svg.svg" alt="twitter-svg" class="icon"></a>
-                        <a href="https://www.instagram.com/login/" target="_blank"><img
-                                src="./assets/images/svg/instagram-svg.svg" alt="instagram-svg" class="icon"></a>
+                        <a class="circle-2 d-flex align-items-center justify-content-center"
+                            href="https://www.facebook.com/login/" target="_blank">
+                            <svg width="18" height="18" viewBox="0 0 10 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.19773 10.3254H8.29123L9.12863 6.97581H6.19773V5.30101C6.19773 4.43849 6.19773 3.62621 7.87253 3.62621H9.12863V0.812549C8.85564 0.77654 7.8248 0.695312 6.73618 0.695312C4.46264 0.695312 2.84814 2.08288 2.84814 4.63109V6.97581H0.335938V10.3254H2.84814V17.4433H6.19773V10.3254Z"
+                                    fill="#F53838" />
+                            </svg>
+                        </a>
+                        <a class="circle-2 d-flex align-items-center justify-content-center"
+                            href="https://www.twitter.com/login/" target="_blank">
+                            <svg width="22" height="17" viewBox="0 0 22 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.1623 2.28105C20.3989 2.61874 19.5893 2.84052 18.7603 2.93905C19.634 2.41648 20.288 1.59406 20.6003 0.625049C19.7803 1.11305 18.8813 1.45505 17.9443 1.64005C17.3149 0.966628 16.4807 0.520012 15.5713 0.369633C14.6618 0.219255 13.7282 0.37354 12.9156 0.808502C12.1029 1.24346 11.4567 1.93473 11.0774 2.77484C10.6981 3.61495 10.607 4.55683 10.8183 5.45405C9.15541 5.3707 7.52863 4.93857 6.04358 4.18571C4.55854 3.43285 3.24842 2.3761 2.1983 1.08405C1.82659 1.7225 1.63125 2.44828 1.6323 3.18705C1.6323 4.63705 2.3703 5.91805 3.4923 6.66805C2.82831 6.64715 2.17893 6.46783 1.5983 6.14505V6.19705C1.5985 7.16275 1.93267 8.09866 2.54414 8.84611C3.15562 9.59355 4.00678 10.1065 4.9533 10.298C4.33691 10.4651 3.6906 10.4897 3.0633 10.37C3.33016 11.2013 3.8503 11.9282 4.55089 12.4492C5.25147 12.9701 6.09742 13.2588 6.9703 13.275C6.10278 13.9564 5.10947 14.46 4.04718 14.7572C2.98488 15.0544 1.87442 15.1393 0.779297 15.007C2.69099 16.2365 4.91639 16.8892 7.1893 16.887C14.8823 16.887 19.0893 10.514 19.0893 4.98705C19.0893 4.80705 19.0843 4.62505 19.0763 4.44705C19.8952 3.85522 20.6019 3.12207 21.1633 2.28205L21.1623 2.28105Z"
+                                    fill="#F53838" />
+                            </svg>
+                        </a>
+                        <a class="circle-2 d-flex align-items-center justify-content-center"
+                            href="https://www.instagram.com/login/" target="_blank">
+                            <svg width="18" height="18s" viewBox="0 0 20 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10 0.625C12.717 0.625 13.056 0.635 14.122 0.685C15.187 0.735 15.912 0.902 16.55 1.15C17.21 1.404 17.766 1.748 18.322 2.303C18.8305 2.8029 19.224 3.40759 19.475 4.075C19.722 4.712 19.89 5.438 19.94 6.503C19.987 7.569 20 7.908 20 10.625C20 13.342 19.99 13.681 19.94 14.747C19.89 15.812 19.722 16.537 19.475 17.175C19.2247 17.8428 18.8311 18.4476 18.322 18.947C17.822 19.4553 17.2173 19.8488 16.55 20.1C15.913 20.347 15.187 20.515 14.122 20.565C13.056 20.612 12.717 20.625 10 20.625C7.283 20.625 6.944 20.615 5.878 20.565C4.813 20.515 4.088 20.347 3.45 20.1C2.78233 19.8495 2.17753 19.4559 1.678 18.947C1.16941 18.4472 0.775931 17.8425 0.525 17.175C0.277 16.538 0.11 15.812 0.0599999 14.747C0.0129999 13.681 0 13.342 0 10.625C0 7.908 0.00999994 7.569 0.0599999 6.503C0.11 5.437 0.277 4.713 0.525 4.075C0.775236 3.40718 1.1688 2.80232 1.678 2.303C2.17767 1.79423 2.78243 1.40073 3.45 1.15C4.088 0.902 4.812 0.735 5.878 0.685C6.944 0.638 7.283 0.625 10 0.625ZM10 5.625C8.67392 5.625 7.40215 6.15178 6.46447 7.08947C5.52678 8.02715 5 9.29892 5 10.625C5 11.9511 5.52678 13.2229 6.46447 14.1605C7.40215 15.0982 8.67392 15.625 10 15.625C11.3261 15.625 12.5979 15.0982 13.5355 14.1605C14.4732 13.2229 15 11.9511 15 10.625C15 9.29892 14.4732 8.02715 13.5355 7.08947C12.5979 6.15178 11.3261 5.625 10 5.625ZM16.5 5.375C16.5 5.04348 16.3683 4.72554 16.1339 4.49112C15.8995 4.2567 15.5815 4.125 15.25 4.125C14.9185 4.125 14.6005 4.2567 14.3661 4.49112C14.1317 4.72554 14 5.04348 14 5.375C14 5.70652 14.1317 6.02446 14.3661 6.25888C14.6005 6.4933 14.9185 6.625 15.25 6.625C15.5815 6.625 15.8995 6.4933 16.1339 6.25888C16.3683 6.02446 16.5 5.70652 16.5 5.375ZM10 7.625C10.7956 7.625 11.5587 7.94107 12.1213 8.50368C12.6839 9.06629 13 9.82935 13 10.625C13 11.4206 12.6839 12.1837 12.1213 12.7463C11.5587 13.3089 10.7956 13.625 10 13.625C9.20435 13.625 8.44129 13.3089 7.87868 12.7463C7.31607 12.1837 7 11.4206 7 10.625C7 9.82935 7.31607 9.06629 7.87868 8.50368C8.44129 7.94107 9.20435 7.625 10 7.625Z"
+                                    fill="#F53838" />
+                            </svg>
+                        </a>
                     </div>
                     <p class="font-rubik fw-normal fs-6 lh-30 color-mineral mt-30 mb-0">©2025Lasles<span
                             class="fw-medium">VPN</span></p>
@@ -447,6 +620,14 @@
             </div>
         </div>
     </footer>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
