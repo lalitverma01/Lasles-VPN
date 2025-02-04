@@ -76,6 +76,14 @@
     margin-top: 130px;
 }
 
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mt-155 {
+    margin-top: 155px;
+}
+
 /***** gap *****/
 .gap-10 {
     gap: 10px;
@@ -155,9 +163,9 @@
 .bg-color {
     background-color: #FBFBFB;
 }
+
 .box {
     width: 330px;
-    /* height: 760px; */
     padding: 79px 70px 50px 70px;
     border-radius: 10px;
     border: 2px solid #DDDDDD;
