@@ -12,6 +12,7 @@
     --lh-23: 23.7px;
     --lh-25: 25px;
     --lh-30: 30px;
+    --lh-45: 45px;
     --lh-50: 50px;
     --lh-70: 70px;
     /***** color *****/
@@ -66,6 +67,10 @@
     line-height: var(--lh-30);
 }
 
+.lh-45 {
+    line-height: var(--lh-45);
+}
+
 .lh-50 {
     line-height: var(--lh-50);
 }
@@ -81,4 +86,14 @@
 
 .color-liberty {
     color: var(--color-liberty-blue);
+}
+
+@media (max-width:575.98px) {
+    :root {
+        --fs-lg: 28px;
+        --fs-xl: 35px;
+        --lh-45: normal;
+        --lh-50: normal;
+        --lh-70: normal;
+    }
 }

@@ -2,6 +2,15 @@
 @import url(./root.css);
 
 /***** max-width *****/
+
+.max-w-340 {
+    max-width: 340px;
+}
+
+.max-w-371 {
+    max-width: 371px;
+}
+
 .max-w-383 {
     max-width: 383px;
 }
@@ -48,6 +57,10 @@
     margin-bottom: 31px;
 }
 
+.mt-40 {
+    margin-top: 40px;
+}
+
 .mb-50 {
     margin-bottom: 50px;
 }
@@ -58,6 +71,10 @@
 
 .mb-60 {
     margin-bottom: 60px;
+}
+
+.mt-63 {
+    margin-top: 63px !important;
 }
 
 .mt-80 {
@@ -140,10 +157,21 @@
     border: 1px solid var(--color-radish-lips);
 }
 
+.sign-up-btn:hover {
+    background-color: var(--bg-flamboyant) !important;
+    color: var(--color-white);
+}
+
 .get-started-btn {
     padding: 17.5px 77.5px 17.5px 77.5px;
     border-radius: 10px;
     background: var(--bg-flamboyant);
+}
+
+.get-started-btn:hover {
+    color: var(--color-radish-lips) !important;
+    border: 1px solid var(--color-radish-lips) !important;
+    background-color: white;
 }
 
 .circle {
@@ -159,13 +187,20 @@
     backdrop-filter: blur(114px);
 }
 
+.border-line-2 {
+    border-right: 2px solid var(--color-snowflake);
+    color: #0D1025;
+    backdrop-filter: blur(114px);
+}
+
 /***** section-3 *****/
 .bg-color {
     background-color: #FBFBFB;
 }
 
 .box {
-    width: 330px;
+    max-width: 330px;
+    width: 100%;
     padding: 79px 70px 50px 70px;
     border-radius: 10px;
     border: 2px solid #DDDDDD;
@@ -184,15 +219,38 @@
     border: 1px solid var(--color-radish-lips);
 }
 
-.select-btn-2 {
-    padding: 13px 65px 13px 65px;
-    border-radius: 50px;
-    border: none;
+.select-btn:hover {
+    background-color: var(--bg-flamboyant) !important;
     color: var(--color-white);
-    background: #F53838 !important;
 }
 
+/***** footer *****/
+.subscribe-btn {
+    padding: 17.5px 65px 17.5px 65px;
+    border-radius: 10px;
+    background: var(--bg-flamboyant);
+    border: none;
+}
 
+.subscribe-btn:hover {
+    color: var(--color-radish-lips) !important;
+    border: 1px solid var(--color-radish-lips) !important;
+    background-color: white;
+}
+
+.box-2 {
+    width: 1140px;
+    width: 100%;
+    padding: 58px 70px 58px 70px;
+    border-radius: 10px;
+}
+
+.icon {
+    background-color: #F53838 !important;
+    z-index: 1;
+    border-radius: 50px;
+    border: 2px solid white !important;
+}
 
 @media (max-width:991.98px) {
     .nav-link {
@@ -212,5 +270,21 @@
 
     .show-navbar {
         right: 0 !important;
+    }
+}
+
+@media (max-width:767.98px) {
+    .box-2 {
+        padding: 30px 10px;
+    }
+
+    .border-line-2 {
+        border: none;
+    }
+}
+
+@media (max-width:575.98px) {
+    .border-line {
+        border: none;
     }
 }
