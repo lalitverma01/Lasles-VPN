@@ -178,6 +178,14 @@
     transform: rotate(-43deg);
 }
 
+.navbar-link {
+    transition: all 200ms linear;
+}
+
+.navbar-link:hover {
+    color: var(--bg-flamboyant);
+}
+
 /***** header *****/
 .sign-up-btn {
     padding: 13px 45px 13px 45px;
