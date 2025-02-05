@@ -54,11 +54,6 @@
     padding-bottom: 45px;
 }
 
-.py-67 {
-    padding-top: 67px;
-    padding-bottom: 67px;
-}
-
 .pb-30 {
     padding-bottom: 30px !important;
 }
@@ -255,6 +250,10 @@
     background-color: var(--color-white);
 }
 
+.box:hover {
+    border: 2px solid var(--bg-flamboyant);
+}
+
 .card-1 {
     width: 190.54px;
     height: 230px;
@@ -411,6 +410,14 @@
     border-radius: 50px;
 }
 
+.icon {
+    transition: all 200ms linear;
+}
+
+.icon:hover {
+    transform: translateY(-10px);
+}
+
 @media (max-width:991.98px) {
     .nav-link {
         display: flex !important;
@@ -437,6 +444,16 @@
         left: -10%;
         width: 70%;
     }
+
+    .prev {
+        position: absolute;
+        right: 10%;
+    }
+
+    .next {
+        position: absolute;
+        right: 0%;
+    }
 }
 
 @media (max-width:767.98px) {
@@ -462,6 +479,21 @@
         top: -30%;
         width: 70%;
     }
+
+    .mt-155,
+    .mt-150 {
+        margin-top: 50px;
+    }
+
+    .prev {
+        position: absolute;
+        right: 13%;
+    }
+    
+    .next {
+        position: absolute;
+        right: 0%;
+    }
 }
 
 @media (max-width:575.98px) {
@@ -470,11 +502,13 @@
     }
 
     .prev {
-        display: none !important;
+        position: absolute;
+        right: 35%;
     }
 
     .next {
-        display: none;
+        position: absolute;
+        right: 15%;
     }
 
     .btn-blur-3 {
