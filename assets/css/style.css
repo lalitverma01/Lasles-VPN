@@ -54,6 +54,11 @@
     padding-bottom: 45px;
 }
 
+.py-67 {
+    padding-top: 67px;
+    padding-bottom: 67px;
+}
+
 .pb-30 {
     padding-bottom: 30px !important;
 }
@@ -104,6 +109,10 @@
 
 .mt-80 {
     margin-top: 80px;
+}
+
+.mt-83 {
+    margin-top: 83px;
 }
 
 .mt-90 {
@@ -191,12 +200,19 @@
     padding: 17.5px 77.5px 17.5px 77.5px;
     border-radius: 10px;
     background: var(--bg-flamboyant);
+    border: 1px solid var(--color-radish-lips) !important;
+    position: relative;
 }
 
 .get-started-btn:hover {
     color: var(--color-radish-lips) !important;
     border: 1px solid var(--color-radish-lips) !important;
     background-color: var(--color-white);
+}
+
+.btn-blur {
+    left: -5%;
+    top: -40% !important;
 }
 
 .circle {
@@ -216,6 +232,13 @@
     border-right: 2px solid var(--color-snowflake);
     color: #0D1025;
     backdrop-filter: blur(114px);
+}
+
+.bg-shadow {
+    top: 0%;
+    left: 1%;
+    z-index: -1;
+    width: 100%;
 }
 
 /***** section-3 *****/
@@ -242,11 +265,19 @@
     border-radius: 50px;
     color: var(--color-radish-lips);
     border: 1px solid var(--color-radish-lips);
+    z-index: 1;
 }
 
 .select-btn:hover {
     background-color: var(--bg-flamboyant) !important;
     color: var(--color-white);
+}
+
+.btn-blur-2 {
+    top: -30%;
+    z-index: 1;
+    width: 150%;
+
 }
 
 /***** slider *****/
@@ -359,6 +390,12 @@
     background-color: white;
 }
 
+.btn-blur-3 {
+    right: -15%;
+    top: -30%;
+    z-index: -1;
+}
+
 .box-2 {
     width: 1140px;
     width: 100%;
@@ -393,6 +430,13 @@
     .show-navbar {
         right: 0 !important;
     }
+
+    .btn-blur-3 {
+        position: absolute;
+        top: -35%;
+        left: -10%;
+        width: 70%;
+    }
 }
 
 @media (max-width:767.98px) {
@@ -407,6 +451,17 @@
     .box-2 {
         transform: translateY(-0%);
     }
+
+    .bg-shadow {
+        display: none;
+    }
+
+    .btn-blur-3 {
+        position: absolute;
+        left: -5%;
+        top: -30%;
+        width: 70%;
+    }
 }
 
 @media (max-width:575.98px) {
@@ -415,10 +470,16 @@
     }
 
     .prev {
-    display: none !important;
+        display: none !important;
     }
 
     .next {
         display: none;
+    }
+
+    .btn-blur-3 {
+        position: absolute;
+        left: 0%;
+        top: 5%;
     }
 }
