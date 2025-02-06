@@ -8,7 +8,7 @@ const navbarbtn = () => {
 
 
 $('.happy-customer-slider').slick({
-    slidesToShow: 3,
+    slidesToShow: 2.9,
     slidesToScroll: 1,
     arrows: true,
     dots: true,
