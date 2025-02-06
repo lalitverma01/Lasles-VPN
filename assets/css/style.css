@@ -31,6 +31,10 @@
     max-width: 640px;
 }
 
+.max-w-1060 {
+    max-width: 1060px;
+}
+
 .max-w-1140 {
     max-width: 1140px;
 }
@@ -90,6 +94,10 @@
     margin-bottom: 31px;
 }
 
+.mb-35 {
+    margin-bottom: 35px;
+}
+
 .mt-40 {
     margin-top: 40px;
 }
@@ -112,6 +120,10 @@
 
 .mt-70 {
     margin-top: 70px;
+}
+
+.mt-79 {
+    margin-top: 79px;
 }
 
 .mt-80 {
@@ -139,7 +151,7 @@
 }
 
 .mt-150 {
-    margin-top: 150px;
+    margin-top: 150px !important;
 }
 
 .mt-155 {

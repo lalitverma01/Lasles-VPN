@@ -8,7 +8,7 @@ const navbarbtn = () => {
 
 
 $('.my-slider').slick({
-    slidesToShow: 2.9,
+    slidesToShow: 2.98,
     slidesToScroll: 1,
     arrows: true,
     dots: true,
@@ -36,7 +36,7 @@ $('.my-slider').slick({
         },
     ]
 });
-    
+
 $('.logo-slider').slick({
     dots: false,
     arrows: false,
