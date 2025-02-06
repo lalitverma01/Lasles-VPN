@@ -7,7 +7,7 @@ const navbarbtn = () => {
 }
 
 
-$('.happy-customer-slider').slick({
+$('.my-slider').slick({
     slidesToShow: 2.9,
     slidesToScroll: 1,
     arrows: true,
@@ -30,9 +30,19 @@ $('.happy-customer-slider').slick({
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 arrows: false,
+                autoplay: true,
+                sutoplaySpeed: 300,
             }
         },
-
-
     ]
+});
+    
+$('.logo-slider').slick({
+    dots: false,
+    arrows: false,
+    infinite: true,
+    slidesToScroll: 1,
+    slidesToShow: 6,
+    autoplay: true,
+    autoplaySpeed: 400,
 });

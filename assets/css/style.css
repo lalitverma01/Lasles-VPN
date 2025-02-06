@@ -312,6 +312,11 @@
 
 }
 
+.first-slider .slick-track {
+    display: flex;
+    gap: 59px;
+}
+
 /***** slider *****/
 .section-5 .slider-card {
     padding: 30px;
@@ -320,7 +325,7 @@
     min-height: 260px;
 }
 
-.section-5 .slider-start .slick-track {
+.section-5 .second-slider .slick-track {
     display: flex;
     gap: 20px;
 }
@@ -330,11 +335,11 @@
     display: flex;
 }
 
-.section-5 .slider-start .slick-slide>div {
+.section-5 .second-slider .slick-slide>div {
     display: flex;
 }
 
-.section-5 .slider-start .slick-dots li.slick-active {
+.section-5 .second-slider .slick-dots li.slick-active {
     background: var(--bg-flamboyant);
     width: 45px;
     height: 15px;
@@ -343,7 +348,7 @@
     top: 50px;
 }
 
-.section-5 .slider-start .slick-dots li {
+.section-5 .second-slider .slick-dots li {
     width: 15px;
     height: 15px;
     border-radius: 100px;
@@ -352,24 +357,24 @@
     top: 50px;
 }
 
-.section-5 .slider-start .slick-dots li.slick-active button:before {
+.section-5 .second-slider .slick-dots li.slick-active button:before {
     color: var(--bg-flamboyant);
 }
 
-.section-5 .slider-start .slick-dots li button:before {
+.section-5 .second-slider .slick-dots li button:before {
     color: #dde0e4;
 }
 
-.section-5 .slider-start .slick-track .slick-slide.slick-current.slick-active {
+.section-5 .second-slider .slick-track .slick-slide.slick-current.slick-active {
     border: 2px solid var(--bg-flamboyant);
 }
 
-.section-5 .slider-start .slick-next:before {
+.section-5 .second-slider .slick-next:before {
     content: none;
     visibility: hidden;
 }
 
-.section-5 .slider-start .slick-prev:before {
+.section-5 .second-slider .slick-prev:before {
     content: none;
     visibility: hidden;
 }
